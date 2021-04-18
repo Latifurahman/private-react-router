@@ -1,0 +1,85 @@
+.stadium-img{
+    width: 100%;
+    height: 380px;
+    opacity: 60%;
+}
+.team-logo2{
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+}
+.team-img{
+    width: 100%;
+}
+.team-info{
+    background-color: #FC4D57;
+    margin-top: 40px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.team-info h1{
+    margin-bottom: 30px;
+}
+.team-description{
+    padding: 10px;
+    color: #C6C6C6;
+}
+.team-container{
+    background-color: #0E0A2B;
+}
+.social-icon a{
+    margin: 20px;
+}
+.social-icon{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.twitter{
+    color:  #00acee;
+}
+.twitter:hover{
+    color: #4dccff;
+}
+.facebook{
+    color: #225bd6;
+}
+.facebook:hover{
+    color: #2d70ff;
+}
+.youtube{
+    color: #FF0000;
+}
+.youtube:hover{
+    color: #ff6c0a;
+}
+
+@media (max-width: 575.98px) { 
+
+    .stadium-img{
+        height: 250px;
+    }    
+    .team-logo2{
+        width: 180px;
+        left: 31%;
+        top: 35px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .stadium-img{
+        height: 250px;
+    } 
+    .team-logo2{
+        width: 180px;
+        left: 32%;
+        top: 35px;
+    }
+    .team-info{
+    }
+ }

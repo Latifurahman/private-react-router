@@ -1,0 +1,23 @@
+.main-btn{
+    width: 140px;
+}
+.team-logo{
+    padding: 20px;
+    border-bottom: 1px solid darkgray;
+}
+.team-text{
+    border-bottom: 1px solid green;
+    margin-bottom: 20px;
+    font-size: small;
+    color: rgb(199, 41, 41);
+}
+
+@media (max-width: 575.98px) { 
+    .card{
+        margin-bottom: 30px;
+    }
+    .team-logo{
+        padding: 5px;
+        height: 220px;
+    }
+}
