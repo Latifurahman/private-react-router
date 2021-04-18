@@ -13,9 +13,9 @@ const Home = () => {
         .then(data => setTeams(data.teams));
     }, [])
     return (
-        <div className="header-section">
+        <div>
              <div className="header-top">
-                <Image src={mainImg} fluid />
+                <img src={mainImg} class="img-fluid" alt="..."></img>
                  <h1>Team Dazzle</h1>
             </div>
             <div className="header-bottom">
