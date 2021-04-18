@@ -3,8 +3,7 @@ import Home from './component/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import NoMatch from './NoMatch/NoMatch';
 import TeamDetail from './component/TeamDetail/TeamDetail';

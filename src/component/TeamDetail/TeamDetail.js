@@ -3,8 +3,6 @@ import { useParams } from 'react-router';
 import maleImg from '../../component/images/male.png';
 import femaleImg from '../../component/images/female.png';
 import './TeamDetail.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-solid-svg-icons';
 
 const TeamDetail = () => {
     let {teamId} = useParams();
@@ -14,7 +12,7 @@ const TeamDetail = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeam(data.teams[0]))
-    },[]);
+    },[teamId]);
     const {strStadiumThumb, strTeamBadge, strTeam, intFormedYear, strCountry, strGender, strDescriptionEN, strDescriptionFR, strTwitter, strFacebook, strYoutube} = team;
     const teamImg = () => {
         const strGender = '';
