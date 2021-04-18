@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Image } from 'react-bootstrap';
 import mainImg from '../../component/images/main-image.jpg';
 import Team from '../Team/Team';
 import './Home.css';
